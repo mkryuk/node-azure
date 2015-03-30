@@ -3,6 +3,8 @@ var router = express.Router();
 
 var nconf = require('nconf');
 
+nconf.env();
+
 /* GET home page. */
 router.get('/', function(req, res) {
   var version = nconf.get('version') || "dev";
