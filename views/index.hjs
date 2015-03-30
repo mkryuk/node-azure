@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body style="background-color: {{ background }}">
+    <h1>Hello world!</h1>
+    <p>App version: {{ version }}.</p>
+  </body>
+</html>
