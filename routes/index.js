@@ -7,7 +7,7 @@ nconf.env();
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  require('nconf1');
+  require('nconf');
 
   var version = nconf.get('version') || "dev";
   var background = nconf.get('background') || "#aaaaaa";
